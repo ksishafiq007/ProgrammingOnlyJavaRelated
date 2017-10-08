@@ -13,13 +13,13 @@ import java.util.Scanner;
  */
 public class TrianglePyramid {
     public static void main(String[] args) { 
-       
+       int k=5;
         for(int m=0;m<5;m++){            
-            for(int n=1;n<=5-m;n++){                
+            for(int n=1;n<=k;n++){                
             System.out.print(n +" ");            
         }
        System.out.print('\n');
-      
+      k--;
     }
     }
 }
