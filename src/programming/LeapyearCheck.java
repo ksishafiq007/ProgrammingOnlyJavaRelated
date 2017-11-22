@@ -20,10 +20,17 @@ public class LeapyearCheck {
         Integer year = sc.nextInt();
 
         if (year % 4 != 0) {
-            System.out.println("It is not Leap Year");
+            System.out.println("It is a not Leap Year");
         } else {
-            System.out.println("It is Leap Year:" + year);
+            if (year % 100 == 0) {
+                if (year % 400 == 0) {
+                    System.out.println("It is a Leap Year:" + year);
+                } else {
+                    System.out.println("It is  not a Leap Year:" + year);
+                }
+            } else {
+                System.out.println("It is a Leap Year:" + year);
+            }
         }
     }
-
 }
