@@ -24,16 +24,15 @@ public class LeapyearCheck {
         } else {
             if (year % 100 == 0) {
                 if (year % 400 == 0) {
-                    System.out.println("It is a Leap Year:" + year +" completed");
-                    
+                    System.out.println("It is a Leap Year:" + year);
+
                 } else {
                     System.out.println("It is  not a Leap Year:" + year);
-                    
+
                 }
             } else {
                 System.out.println("It is a Leap Year:" + year);
-                System.out.println("completed");
-                
+
             }
         }
     }
