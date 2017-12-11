@@ -25,6 +25,7 @@ public class Prime {
 
     public static void main(String[] args) {
         int k, n = 50;
+        System.out.println("Prime numbers from divisors for specific number:");
         for (k = 2; k <= n / 2; k++) {
             if (n % k == 0) {
                 //System.out.println(k);
