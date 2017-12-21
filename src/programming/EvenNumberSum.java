@@ -23,7 +23,7 @@ public class EvenNumberSum {
     }
     public static void main(String[] args) { 
         int sum;
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);  
         System.out.println("Enter Your Number:");
         Integer value = scanner.nextInt();
         sum=new EvenNumberSum().sumofEvenNumber(value);
