@@ -21,13 +21,13 @@ public class FibonacciSeries {
         new FibonacciSeries().fibonacci(value);
     }
 
-    void fibonacci(int value) {
+    void fibonacci(int n) {
         int a, b, c, i;
         a = 0;
         b = 1;
         i = 1;
         System.out.print(a + " " + b);
-        while (i <= value) {
+        while (i <= n) {
             c = a + b;
             a = b;
             b = c;
