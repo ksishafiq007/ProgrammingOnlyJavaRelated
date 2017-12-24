@@ -11,28 +11,29 @@ import java.util.Scanner;
  *
  * @author KSI
  */
-public class FibonacciSeries { 
+public class FibonacciSeries {
+
     public static void main(String[] args) {
-        
-        
-        Scanner scanner = new Scanner(System.in);  
+
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter Your Number:");
         Integer value = scanner.nextInt();
-       new FibonacciSeries().fibonacci(value);
+        new FibonacciSeries().fibonacci(value);
     }
-    void fibonacci(int value){
-        int a,b,c,i;
-        a=0;
-        b=1;
-        i=1;
-        System.out.print(a+" "+b);
-        while(i<=value){
-        c=a+b;
-        a=b;
-        b=c;
-        System.out.print(" "+b);
-        i++;
+
+    void fibonacci(int value) {
+        int a, b, c, i;
+        a = 0;
+        b = 1;
+        i = 1;
+        System.out.print(a + " " + b);
+        while (i <= value) {
+            c = a + b;
+            a = b;
+            b = c;
+            System.out.print(" " + b);
+            i++;
         }
-     
+
     }
 }
