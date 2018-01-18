@@ -11,6 +11,7 @@ import java.util.Scanner;
  *
  * @author KSI
  */
+//any number given input we will found summation for every element.
 public class sumOfDigits {
      int sumofDigit(int value){
         int s=0,a,r;
@@ -18,7 +19,7 @@ public class sumOfDigits {
         while(a!=0)
         {
             r=a%10;
-            s=s+r;
+            s=s+r;  
             a=a/10;
     }
         return s;
