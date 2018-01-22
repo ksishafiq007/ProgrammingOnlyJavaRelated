@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class SumofdigitsFractionSeries {
     float sumofDigit(int value,int value2){
         float s=1,term=1,denr;
-        int n,x,i;
+        int n,i,x;
         n=value;
         x=value2;
         for(i=1;i<n;i++){
