@@ -15,12 +15,12 @@ import java.util.Date;
 public class StringToDateAll {
 
     public static void main(String[] args) throws Exception {
-        String sDate1 = "31/12/1998";
+        String sDate1 = "31/12/1997";
         String sDate2 = "31-Dec-1998";
-        String sDate3 = "12 31, 1998";
-        String sDate4 = "Thu, Dec 31 1998";
-        String sDate5 = "Thu, Dec 31 1998 23:37:50";
-        String sDate6 = "31-Dec-1998 23:37:50";
+        String sDate3 = "12 31, 1999";
+        String sDate4 = "Thu, Dec 31 2002";
+        String sDate5 = "Thu, Dec 31 2004 23:37:50";
+        String sDate6 = "31-Dec-2010 23:37:50";
         SimpleDateFormat formatter1 = new SimpleDateFormat("dd/MM/yyyy");
         SimpleDateFormat formatter2 = new SimpleDateFormat("dd-MMM-yyyy");
         SimpleDateFormat formatter3 = new SimpleDateFormat("MM dd, yyyy");
