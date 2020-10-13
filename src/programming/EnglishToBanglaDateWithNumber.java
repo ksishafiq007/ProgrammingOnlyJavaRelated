@@ -14,9 +14,11 @@ public class EnglishToBanglaDateWithNumber {
         LocalDateTime now = LocalDateTime.now();
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
         DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("dd MMMM yyyy");
-        SimpleDateFormat simpleDateFormat =new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         String result = etbd.getDigitBanglaFromEnglish(dtf.format(now));
         System.out.println(result);
+        String resultAnother = etbd.getDigitBanglaFromEnglish(dtf2.format(now));
+        System.out.println(resultAnother);
     }
 
     public static final String getDigitBanglaFromEnglish(String number) {
