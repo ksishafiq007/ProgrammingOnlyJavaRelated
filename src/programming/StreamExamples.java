@@ -34,7 +34,7 @@ public class StreamExamples {
 
 		List<Integer> numberForReduce = Arrays.asList(2, 3, 4, 5); // create a list of integers
 		// demonstration of reduce method
-		int even = numberForReduce.stream().filter(x -> x % 2 == 0).reduce(3, (ans, i) -> ans + i);
+		int even = numberForReduce.stream().filter(x -> x % 2 == 0).reduce(3, (ans, i) -> ans + i); // answer=0,answer=answer+i
 		System.out.println(even);
 
 	}
