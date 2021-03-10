@@ -16,6 +16,8 @@ public class Programming {
      */
     public static void main(String[] args) {
         System.out.println("Hello Github");
+        System.out.println(2<<2);
+        
     }
     
 }
