@@ -11,6 +11,6 @@ public static SingleTon getInstance() {
 }
 
 protected static void demoMethod() {
-	System.out.println("demoMethod for singleton");
+	System.out.println("DemoMethod for singleton check");
 }
 }

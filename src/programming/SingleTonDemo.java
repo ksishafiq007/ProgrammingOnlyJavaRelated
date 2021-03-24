@@ -6,6 +6,8 @@ public class SingleTonDemo {
 		
 		SingleTon tmp=SingleTon.getInstance();
 		tmp.demoMethod();
+		
+		
 	}
 
 }
