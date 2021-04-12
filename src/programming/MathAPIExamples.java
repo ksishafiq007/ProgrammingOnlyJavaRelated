@@ -49,6 +49,20 @@ public class MathAPIExamples {
 		System.out.println("max(" + a + "," + x + ") is " + Math.max(a, x));
 		System.out.println("max(" + y + "," + b + ") is " + Math.max(y, b));
 
+		// Math E & PI
+		System.out.println("Pi is " + Math.PI);
+		System.out.println("e is " + Math.E);
+
+		// Trigonometric operations
+		// All arguments in radians
+		// Convert a 45 degree angle to radians
+		double angle = 45.0 * 2.0 * Math.PI / 360;
+		System.out.println("cos(" + angle + ") is " + Math.cos(angle));
+		System.out.println("sin(" + angle + ") is " + Math.sin(angle));
+		double angle2 = 60.0 * 2.0 * Math.PI / 360;
+		System.out.println("cos(" + angle + ") is " + Math.cos(angle2));
+		System.out.println("sin(" + angle + ") is " + Math.sin(angle2));
+
 	}
 
 }
