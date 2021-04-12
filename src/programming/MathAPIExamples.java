@@ -36,6 +36,19 @@ public class MathAPIExamples {
 		System.out.println("The floor of " + x + " is " + Math.floor(x));
 		System.out.println("The floor of " + y + " is " + Math.floor(y));
 
+		// Comparison operators
+		// min
+		System.out.println("min(" + a + "," + b + ") is " + Math.min(a, b));
+		System.out.println("min(" + x + "," + y + ") is " + Math.min(x, y));
+		System.out.println("min(" + a + "," + x + ") is " + Math.min(a, x));
+		System.out.println("min(" + y + "," + b + ") is " + Math.min(y, b));
+
+		// max
+		System.out.println("max(" + a + "," + b + ") is " + Math.max(a, b));
+		System.out.println("max(" + x + "," + y + ") is " + Math.max(x, y));
+		System.out.println("max(" + a + "," + x + ") is " + Math.max(a, x));
+		System.out.println("max(" + y + "," + b + ") is " + Math.max(y, b));
+
 	}
 
 }
