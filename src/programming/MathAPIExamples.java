@@ -62,6 +62,14 @@ public class MathAPIExamples {
 		double angle2 = 60.0 * 2.0 * Math.PI / 360;
 		System.out.println("cos(" + angle + ") is " + Math.cos(angle2));
 		System.out.println("sin(" + angle + ") is " + Math.sin(angle2));
+		
+		// Inverse Trigonometric operations
+	    // All values are returned as radians
+		double value=0.707;
+		System.out.println("acos(" + value + ") is " + Math.acos(value));
+		System.out.println("asin(" + value + ") is " + Math.asin(value));
+		System.out.println("atan(" + value + ") is " + Math.atan(value));
+		
 
 	}
 
