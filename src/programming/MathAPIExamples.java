@@ -70,6 +70,17 @@ public class MathAPIExamples {
 		System.out.println("asin(" + value + ") is " + Math.asin(value));
 		System.out.println("atan(" + value + ") is " + Math.atan(value));
 		
+		//Exponential and Logarithms
+		//exp(a)
+		System.out.println("exp(1.0) is "+Math.exp(1.0));
+		System.out.println("exp(0.0) is "+Math.exp(0.0));
+		System.out.println("exp(10.0) is "+Math.exp(10.0));
+		
+		//log(a)
+		System.out.println("log(1.0) is "+Math.log(1.0));
+		System.out.println("log(10.0) is "+Math.log(10.0));
+		System.out.println("log(Math.E) is "+Math.log(Math.E));
+		
 
 	}
 
