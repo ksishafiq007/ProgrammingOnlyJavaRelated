@@ -81,6 +81,12 @@ public class MathAPIExamples {
 		System.out.println("log(10.0) is "+Math.log(10.0));
 		System.out.println("log(Math.E) is "+Math.log(Math.E));
 		
+		//pow(x,y)
+		System.out.println("pow(2.0,2.0) is "+Math.pow(2.0, 2.0));
+		System.out.println("pow(10.0,4) is "+Math.pow(10.0, 4));
+		System.out.println("pow(8,-1) is "+Math.pow(8, -1));
+		
+		
 
 	}
 
