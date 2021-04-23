@@ -10,8 +10,9 @@ public class WordFrequencyCounter {
 	static Map<String, Long> countFrequency(List<String> words) {
 		Map<String, Long> frequencyMap = (Map<String, Long>) new HashMap<String, Long>();
 		for (String word : words) {
-					
-
+//			if(!frequencyMap.containsKey(word)){
+//                frequencyMap.put(word,0L);
+//            }	
 		}
 		return frequencyMap;
 	}
