@@ -19,9 +19,9 @@ public class DuplicateKeyChecklistToMap {
         list.add(new Hosting(7,"www.gmail.com",97000));
 
         // key = name, value - websites , but the key 'www.ksi.com' is duplicated!?
-        Map<String,Long> result1=list.stream().collect(Collectors.toMap(Hosting::getName,
-                Hosting::getWebsites,(oldValue,newValue)->newValue));
-        System.out.println(" Result "+result1);
+        //Map<String,Long> result1=list.stream().collect(Collectors.toMap(Hosting::getName,
+             //   Hosting::getWebsites,(oldValue,newValue)->newValue));
+        //System.out.println(" Result "+result1);
 
     }
 }

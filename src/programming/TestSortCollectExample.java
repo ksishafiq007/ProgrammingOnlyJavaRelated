@@ -1,11 +1,11 @@
 package programming;
 
 import java.util.*;
-import java.util.stream.Collectors;
+//import java.util.stream.Collectors;
 
 public class TestSortCollectExample {
     public static void main(String[] args) {
-        List<HostingModelClass> list = new ArrayList<>();
+      /*  List<HostingModelClass> list = new ArrayList<>();
         list.add(new HostingModelClass(1,"www.google.com",90000));
         list.add(new HostingModelClass(2,"www.gmail.com",75000));
         list.add(new HostingModelClass(3,"www.facebook.com",85000));
@@ -23,5 +23,6 @@ public class TestSortCollectExample {
        ));
 
         System.out.println(" Result check   "+resultForSort);
+    }*/
     }
 }

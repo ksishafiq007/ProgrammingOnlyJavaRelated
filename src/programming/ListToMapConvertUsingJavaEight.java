@@ -3,7 +3,7 @@ package programming;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
+//import java.util.stream.Collectors;
 
 public class ListToMapConvertUsingJavaEight {
     public static void main(String[] args) {
@@ -16,17 +16,17 @@ public class ListToMapConvertUsingJavaEight {
         list.add(new Hosting(3,"www.facebook.com",85000));
 
         // key = id, value - name
-        Map<Integer, String> mapRes1= list.stream().collect(Collectors.toMap(Hosting::getId,Hosting::getName));
-        System.out.println("Result 1 : " + mapRes1);
+        //Map<Integer, String> mapRes1= list.stream().collect(Collectors.toMap(Hosting::getId,Hosting::getName));
+        //System.out.println("Result 1 : " + mapRes1);
 
         // key = name, value - websites
-        Map<String, Long> mapRes2=list.stream().collect(Collectors.toMap(Hosting::getName,Hosting::getWebsites));
-        System.out.println("Result 2 : " + mapRes2);
+       // Map<String, Long> mapRes2=list.stream().collect(Collectors.toMap(Hosting::getName,Hosting::getWebsites));
+       // System.out.println("Result 2 : " + mapRes2);
 
         // Same with result1, just different syntax
         // key = id, value = name
-        Map<Integer, String> mapRes3=list.stream().collect(Collectors.toMap(x->x.getId(),x->x.getName()));
-        System.out.println("Result 3 : "+mapRes3);
+        //Map<Integer, String> mapRes3=list.stream().collect(Collectors.toMap(x->x.getId(),x->x.getName()));
+        //System.out.println("Result 3 : "+mapRes3);
 
     }
 
