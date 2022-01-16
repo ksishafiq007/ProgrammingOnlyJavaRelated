@@ -2,7 +2,7 @@ package programming;
 
 public class TransposeMatrix {
     public static void main(String[] args) {
-        int original[][]={{1,3,4},{2,4,3},{3,4,5}};
+        int original[][]={{2,4,6},{3,5,7},{4,6,8}};
         int transpose[][]=new int[3][3];  //3 rows and 3 columns
 
         for(int i=0;i<3;i++){
