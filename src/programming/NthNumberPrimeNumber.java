@@ -2,7 +2,7 @@ package programming;
 
 import java.util.Scanner;
 
-public class NthNumber {
+public class NthNumberPrimeNumber {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
